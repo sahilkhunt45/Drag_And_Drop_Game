@@ -246,7 +246,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 FloatingActionButton(
                   onPressed: () {
-                    // Navigator.of(context).pushReplacementNamed('/');
+                   
 
                     setState(() {
                       Global.pokemons = Global.pokeList;
